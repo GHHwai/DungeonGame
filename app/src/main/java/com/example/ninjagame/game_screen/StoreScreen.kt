@@ -35,13 +35,14 @@ fun StoreScreen(onBack: () -> Unit) {
     var profileState by remember { mutableStateOf<UserProfile?>(null) }
     var isLoading by remember { mutableStateOf(true) }
     
-    // Thay thế sword1 bằng black_sword vì sword1 gây lỗi nạp resource (quá lớn hoặc hỏng)
     val storeItems = remember {
         listOf(
             StoreItem("default_kunai", "Classic Kunai", 0, R.drawable.kunai),
             StoreItem("shuriken", "Ninja Shuriken", 5, R.drawable.dragon_fang_sword),
             StoreItem("fire_kunai", "Fire Kunai", 15, R.drawable.lightning_spear),
-            StoreItem("golden_blade", "Golden Blade", 17, R.drawable.forged_iron_scimitar)
+            StoreItem("golden_blade", "Golden Blade", 17, R.drawable.forged_iron_scimitar),
+            StoreItem("shadow_dagger", "Shadow Dagger", 25, R.drawable.su_image1),
+            StoreItem("soul_reaper", "Soul Reaper", 35, R.drawable.su_image2)
         )
     }
 

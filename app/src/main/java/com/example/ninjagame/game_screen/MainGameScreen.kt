@@ -142,6 +142,8 @@ fun MainGameScreen(soundManager: SoundManager) {
             "shuriken" -> R.drawable.riu
             "fire_kunai" -> R.drawable.sword
             "golden_blade" -> R.drawable.sword1
+            "shadow_dagger" -> R.drawable.su_image1
+            "soul_reaper" -> R.drawable.su_image2
             else -> R.drawable.kunai
         }
         decodeSampledBitmapFromResource(resId, 200, 200)
