@@ -51,7 +51,6 @@ import com.example.ninjagame.util.detectMoveGesture
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.random.Random
-
 val BASE_WEAPON_SPAWN_RATE = 200L
 var WEAPON_SPAWN_RATE = 200L
 
